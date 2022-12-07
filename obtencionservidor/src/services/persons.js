@@ -15,13 +15,13 @@ const getAll = () => {
 };
 
 const update = (id, newPerson) => {
-  const request = axios.put('${baseUrl}/${id}', newPerson);
+  const request = axios.put(`${baseUrl}/${id}`, newPerson);
 
   return request.then(response => response.data);
 };
 
 const remove = id => {
-  const request = axios.delete('${baseUrl}/${id}');
+  const request = axios.delete(`${baseUrl}/${id}`);
 
   return request;
 };
