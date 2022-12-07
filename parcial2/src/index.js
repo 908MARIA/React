@@ -20,6 +20,7 @@ const Content = props => {
       <Part name={props.parts[0].name} excercises={props.parts[0].exercises} />
       <Part name={props.parts[1].name} excercises={props.parts[1].exercises} />
       <Part name={props.parts[2].name} excercises={props.parts[2].exercises} />
+      <Part name={props.parts[3].name} excercises={props.parts[3].exercises} />
     </div>
   );
 };
